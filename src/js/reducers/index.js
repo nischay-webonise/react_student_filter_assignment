@@ -3,7 +3,7 @@ import Redux from 'react-redux';
 import action from '../actions/index';
 
 const initial_state = () => {
-  return (foo_list = [])
+  return ({name: ''})
 }
 
 const rootReducer = (state = initial_state, action) => {
